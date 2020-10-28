@@ -53,7 +53,7 @@ function preload() {
   scream1 = loadSound("assets/sound.mp3");
   scream2 = loadSound("assets/sound_2.mp3");
   scream3 = loadSound("assets/sound_3.mp3");
-  images = loadJSON("/data/images.json");
+  images = loadJSON("data/images.json");
 }
 
 function setup() {
